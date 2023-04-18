@@ -1,0 +1,24 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "required": [],
+    "properties": {
+        "minEmployees": {
+            "type": "integer",
+            "minimum": 0
+        },
+        "maxEmployees": {
+            "type": "integer",
+            "minimum": 0
+        },
+        "name": {
+            "type": "string",
+            "minLength": 1
+        }
+    },
+    "examples": [{
+        "minEmployees": 0,
+        "maxEmployees": 0,
+        "name": "string"
+    }]
+}
